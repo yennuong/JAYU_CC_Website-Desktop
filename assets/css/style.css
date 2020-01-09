@@ -2814,6 +2814,24 @@ select {
   font-weight: 300;
 }
 
+.main-page-3-tab-intro .product-info h4 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.main-page-3-tab-intro .product-info p {
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: 300;
+}
+.main-page-3-tab-intro .product-banner img {
+  display: block;
+  margin-bottom: 10px;
+}
+.main-page-3-tab-intro .product-banner p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .main-page.change-password .form-login .note {
   font-size: 14px;
   border: 0;
