@@ -393,6 +393,8 @@ p {
   display: inline-block;
   margin-right: 7px;
   vertical-align: middle;
+  position: relative;
+  top: -4px;
 }
 .page-desc .list-info {
   display: inline-block;
