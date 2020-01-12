@@ -573,6 +573,9 @@ footer .inner .block {
   padding: 20px 5px 15px;
   border-top: 1px solid #000;
 }
+.table-wrapper thead tr th.col {
+  width: auto;
+}
 .table-wrapper tbody tr td {
   border-top: 1px solid #e5e5e5;
   padding: 35px 5px;
