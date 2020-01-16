@@ -43,6 +43,10 @@ img {
 
 /* color */
 /* end color */
+.pd-top {
+  padding-top: 66px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1090,11 +1094,42 @@ footer .inner .block {
   left: 11px;
   right: 11px;
 }
+.calender-bottom .box-line-01.box-line-01 {
+  top: -302px;
+}
 .calender-bottom .box-line-01 ul li {
   height: 177px;
 }
 .calender-bottom .box-line-02 ul li {
   height: 140px;
+}
+.calender-bottom .weather-detail {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.calender-bottom .weather-detail .weather-item {
+  background: #fff;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  padding: 0 15px;
+  margin: 0 2px;
+}
+.calender-bottom .weather-detail .weather-item:first-child {
+  margin-left: 0;
+}
+.calender-bottom .weather-detail .weather-item:last-child {
+  margin-right: 0;
+}
+.calender-bottom .weather-detail .weather-item .weather-item_info {
+  font-size: 12px;
+  width: 65%;
+}
+.calender-bottom .weather-detail .weather-item .weather-item_info p {
+  margin-bottom: 10px;
 }
 .calender-bottom ul {
   display: flex;
@@ -1188,6 +1223,158 @@ footer .inner .block {
 .calender-bottom.show .box-hidden {
   display: block;
 }
+.banner-on-login img.main-banner {
+  filter: brightness(34%);
+}
+
+.banner-content .form-login {
+  width: 300px;
+}
+.banner-content .form-login input {
+  background: transparent;
+}
+.banner-content .form-login ::-webkit-input-placeholder {
+  /* Edge */
+  color: #fff;
+  font-size: 15px;
+}
+.banner-content .form-login :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+  font-size: 15px;
+}
+.banner-content .form-login ::placeholder {
+  color: #fff;
+  font-size: 15px;
+}
+.banner-content .form-login .field:first-child {
+  border-top: 0;
+}
+.banner-content .form-login .field .label-text {
+  color: #fff;
+}
+.banner-content .form-login button {
+  background-color: #fff;
+  color: #000;
+}
+.banner-content .form-login button:hover {
+  background-color: #e6e6e6;
+  border-color: transparent;
+}
+.banner-content .form-login .bottom a {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.banner-content .form-login .bottom a .fa {
+  float: right;
+}
+
+.member_login {
+  position: absolute;
+  top: 7%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.member_login .wrapper {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+.member_login .info-top {
+  display: flex;
+  display: -webkit-flex;
+  color: #fff;
+}
+.member_login .info-top .log-account {
+  display: flex;
+  display: -webkit-flex;
+  margin-left: 40px;
+}
+.member_login .info-top .log-account img {
+  width: 20px;
+  margin: 0 5px;
+  filter: brightness(0) invert(1);
+}
+.member_login ul.infor-member {
+  display: flex;
+  display: -webkit-flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.member_login ul.infor-member li {
+  margin: 0 5px;
+  white-space: nowrap;
+  text-align: center;
+}
+.member_login ul.infor-member li.active {
+  color: #fff;
+}
+.member_login ul.infor-member li .number {
+  font-family: AvenirLTStd-Light;
+  font-size: 26px;
+}
+.member_login ul.info-content {
+  color: #fff;
+}
+.member_login ul.info-content li {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.member_login ul.info-content li a {
+  color: #fff;
+  font-size: 13px;
+}
+.member_login .desc-info-content {
+  color: #fff;
+  right: 20%;
+  position: absolute;
+  top: 108px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+}
+.member_login .desc-info-content span {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  margin-right: 15px;
+}
+.member_login .desc-info-content span img {
+  width: 20px;
+  filter: brightness(0) invert(1);
+  margin-right: 8px;
+}
+.member_login .desc-info-content .group {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  font-size: 20px;
+}
+
+.banner-homepage.login_mouseover img.banner-blur {
+  filter: blur(10px);
+}
+.banner-homepage.login_mouseover .member_login ul.info-content {
+  color: #999;
+}
+.banner-homepage.login_mouseover .member_login ul.info-content li.active {
+  color: #fff;
+}
+.banner-homepage.login_mouseover .member_login ul.info-content li a {
+  color: #999;
+}
+
 .banner-search {
   position: relative;
   margin-bottom: 94px;

@@ -7,13 +7,41 @@
     top: -177px;
     left: 11px;
     right: 11px;
+    &.box-line-01 {
+      top: -302px;
+    }
     ul li{
       height: 177px;
     }
   }
+
   .box-line-02{
     ul li{
       height: 140px;
+    }
+  }
+  .weather-detail {
+    @include display-flex();
+    @include display-flex-between();
+    .weather-item {
+      background: #fff;
+      @include display-flex();
+      @include display-flex-align-center();
+      padding: 0 15px;
+      margin: 0 2px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      .weather-item_info {
+        font-size: 12px;
+        width: 65%;
+        p {
+          margin-bottom: 10px;
+        }
+      }
     }
   }
   ul{
@@ -120,6 +148,158 @@
     }
     .calender-bottom .icon-action span{
 
+    }
+  }
+}
+.banner-on-login img.main-banner {
+  filter: brightness(34%);
+}
+
+.banner-content .form-login {
+  width: 300px;
+  input {
+    background: transparent;
+  }
+  ::-webkit-input-placeholder { /* Edge */
+    color: #fff;
+    font-size: 15px;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+    font-size: 15px;
+  }
+
+  ::placeholder {
+    color: #fff;
+    font-size: 15px;
+  }
+  .field {
+    &:first-child {
+      border-top: 0;
+    }
+    .label-text {
+      color: #fff;
+    }
+  }
+  button {
+    background-color: #fff;
+    color: $color-black;
+    &:hover {
+      background-color: darken(#fff, 10%);
+      border-color: transparent;
+    }
+  }
+  .bottom {
+    a {
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+      color: #fff;
+      margin-bottom: 10px;
+      .fa {
+        float: right;
+      }
+    }
+  }
+
+}
+.member_login {
+  position: absolute;
+  top: 7%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  .wrapper {
+    @include display-flex();
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+  }
+  .info-top {
+    @include display-flex();
+    color: #fff;
+
+    .log-account {
+      @include display-flex();
+      margin-left: 40px;
+      img {
+        width: 20px;
+        margin: 0 5px;
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+  ul.infor-member {
+    @include display-flex();
+    margin-top: 20px;
+    margin-bottom: 30px;
+    li {
+      margin: 0 5px;
+      white-space: nowrap;
+      text-align: center;
+      &.active {
+        color: #fff;
+      }
+      .number {
+        font-family: $font-family-base;
+        font-size: 26px;
+      }
+    }
+  }
+  ul.info-content {
+    color: #fff;
+    li {
+      font-weight: 500;
+      margin-bottom: 5px;
+      a {
+        color: #fff;
+        font-size: 13px;
+      }
+    }
+  }
+  .desc-info-content {
+    color: #fff;
+    right: 20%;
+    position: absolute;
+    top: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    span {
+      @include display-flex();
+      @include display-flex-align-center();
+      margin-right: 15px;
+      img {
+        width: 20px;
+        filter: brightness(0) invert(1);
+        margin-right: 8px;
+      }
+    }
+    .group {
+      @include display-flex();
+      justify-content: center;
+      -webkit-justify-content: center;
+      font-size: 20px;
+    }
+  }
+
+}
+
+.banner-homepage.login_mouseover {
+  img.banner-blur {
+    filter: blur(10px);
+  }
+  .member_login ul.info-content {
+    color: #999;
+    li.active {
+      color: #fff;
+    }
+    li a {
+      color: #999;
     }
   }
 }
