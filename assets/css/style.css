@@ -1095,7 +1095,7 @@ footer .inner .block {
   right: 11px;
 }
 .calender-bottom .box-line-01.box-line-01 {
-  top: -302px;
+  top: -296px;
 }
 .calender-bottom .box-line-01 ul li {
   height: 177px;
@@ -1232,6 +1232,7 @@ footer .inner .block {
 }
 .banner-content .form-login input {
   background: transparent;
+  color: #fff;
 }
 .banner-content .form-login ::-webkit-input-placeholder {
   /* Edge */
