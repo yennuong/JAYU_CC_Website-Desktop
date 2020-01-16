@@ -1223,6 +1223,11 @@ footer .inner .block {
 .calender-bottom.show .box-hidden {
   display: block;
 }
+.calender-bottom.show .icon-action span {
+  background: url(../images/icon-close.png);
+  background-size: 100%;
+}
+
 .banner-on-login img.main-banner {
   filter: brightness(34%);
 }
