@@ -4,9 +4,17 @@
 
     /* search */
     if ($('.search_box').length){
-        $('.search_box .icon-search').on('click',function () {
+
+        var sform = $('.search_box');
+        sform.on('click','.icon-search',function(){
             $(this).closest('.search_box').addClass('show');
-            console.log('text');
+        })
+
+        $(document).on('click', function (e) {
+            // if element is opened and click target is outside it, hide it
+            if (!sform.is(e.target) && !sform.has(e.target).length) {
+                $('.search_box').removeClass('show');
+            }
         });
     }
 
