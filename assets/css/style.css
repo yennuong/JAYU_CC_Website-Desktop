@@ -3287,10 +3287,11 @@ select {
   z-index: 10;
   height: 100vh;
   color: #fff;
-  padding: 100px 20px 50px 20px;
+  padding: 151px 20px 50px 60px;
   font-size: 14px;
   display: none;
   float: right;
+  width: 435px;
 }
 .main-page-9 .note-side-right .btn-click {
   position: absolute;
@@ -3303,6 +3304,12 @@ select {
   border-bottom: 1px solid #dddddd5e;
   padding-top: 35px;
   padding-bottom: 35px;
+}
+.main-page-9 .note-side-right .block-notice .icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 10px;
 }
 .main-page-9 .note-side-right .block-notice:last-child {
   border-bottom: 0;

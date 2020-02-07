@@ -24,10 +24,11 @@
         z-index: 10;
         height: 100vh;
         color: #fff;
-        padding: 100px 20px 50px 20px;
+        padding: 151px 20px 50px 60px;
         font-size: 14px;
         display: none;
         float: right;
+        width: 435px;
         .btn-click {
             position: absolute;
             right: 30px;
@@ -39,6 +40,12 @@
             border-bottom: 1px solid #dddddd5e;
             padding-top: 35px;
             padding-bottom: 35px;
+            .icon{
+                width: 18px;
+                height: 18px;
+                display: inline-block;
+                margin-right: 10px;
+            }
             &:last-child {
                 border-bottom: 0;
             }
