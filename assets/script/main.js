@@ -108,8 +108,11 @@
             });
         });
 
-    //$('#popup_terms').modal('show'); 
-    $('#popup_terms').modal({ show: true });
+    //$('#popup_terms').modal('show');
+    if($('#popup_terms').length){
+        $('#popup_terms').modal({ show: true });
+    }
+
 
     //Popup galary
     $('.popup-gallery').each(function () {
