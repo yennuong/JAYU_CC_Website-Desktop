@@ -6,15 +6,27 @@
         width: 300px;
         .btn-click {
             position: absolute;
-            top: 76px;
+            top: 111px;
             z-index: 20;
-            right: 20px;
+            right: 51px;
             color: $color-gray-10;
             &.active {
                 color: #fff;
                 .fa:before {
-                    content: "\f061";
+                    content: "";
+                    background: url("../images/page9/next.png") no-repeat;
+                    background-size: 100%;
                 }
+            }
+            .fa:before {
+                content: "";
+                background: url("../images/page9/next-white.png") no-repeat;
+                background-size: 100%;
+                font-size: 40px;
+                width: 30px;
+                height: 32px;
+                display: inline-block;
+                cursor: pointer;
             }
         }
     }

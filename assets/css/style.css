@@ -3270,16 +3270,28 @@ select {
 }
 .main-page-9 .notice-content .btn-click {
   position: absolute;
-  top: 76px;
+  top: 111px;
   z-index: 20;
-  right: 20px;
+  right: 51px;
   color: #bea36b;
 }
 .main-page-9 .notice-content .btn-click.active {
   color: #fff;
 }
 .main-page-9 .notice-content .btn-click.active .fa:before {
-  content: "";
+  content: "";
+  background: url("../images/page9/next.png") no-repeat;
+  background-size: 100%;
+}
+.main-page-9 .notice-content .btn-click .fa:before {
+  content: "";
+  background: url("../images/page9/next-white.png") no-repeat;
+  background-size: 100%;
+  font-size: 40px;
+  width: 30px;
+  height: 32px;
+  display: inline-block;
+  cursor: pointer;
 }
 .main-page-9 .note-side-right {
   overflow: hidden;
