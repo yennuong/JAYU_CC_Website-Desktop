@@ -1091,7 +1091,7 @@ footer .inner .block {
   right: 11px;
 }
 .calender-bottom .box-line-01.box-line-01 {
-  top: -296px;
+  top: -285px;
 }
 .calender-bottom .box-line-01 ul li {
   height: 177px;
@@ -1105,6 +1105,7 @@ footer .inner .block {
   display: flex;
   justify-content: space-between;
   -webkit-justify-content: space-between;
+  margin-bottom: 5px;
 }
 .calender-bottom .weather-detail .weather-item {
   background: #fff;
@@ -1128,6 +1129,9 @@ footer .inner .block {
 }
 .calender-bottom .weather-detail .weather-item .weather-item_info p {
   margin-bottom: 10px;
+}
+.calender-bottom .weather-detail .weather-item .image {
+  width: 117px;
 }
 .calender-bottom ul {
   display: flex;
@@ -1213,6 +1217,10 @@ footer .inner .block {
   height: 25px;
   background: url("../images/arrow-down.png");
   background-size: 100%;
+}
+
+.box-line .item .text {
+  width: 100%;
 }
 
 .calender-bottom .box-hidden {
